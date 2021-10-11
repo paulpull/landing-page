@@ -1,0 +1,43 @@
+.darkBg {
+    background-color: #1f2937;
+}
+
+.heroMainText {
+    size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.heroText {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+.headerLogoText {
+    size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    color:#3882F6
+}
+
+.call2Action {
+    background-color: #3882F6;
+}
+
+.informationHeaderText {
+    size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.quoteBg {
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    size: 36px;
+    font-weight: lighter;
+    color: #1F2937
+}
