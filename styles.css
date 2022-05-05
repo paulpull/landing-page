@@ -1,43 +1,214 @@
-.darkBg {
-    background-color: #1f2937;
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
-.heroMainText {
-    size: 48px;
-    font-weight: extra-bold;
+.top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+}
+
+#header {
+    height: 23em;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.headerLogo {
+    size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
-.heroText {
+.navbar {
+    list-style: none;
+    size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#navbar a {
+    color: inherit;
+    text-decoration: inherit;
+    size: inherit;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#hero h1 {
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero p {
     size: 18px;
     color: #E5E7EB;
 }
 
-.headerLogoText {
-    size: 24px;
-    color: #F9FAF8;
-}
-
-button {
-    color:#3882F6
-}
-
-.call2Action {
+#hero button {
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
 }
 
-.informationHeaderText {
+#placeholder {
+    width: 375px;
+    height: 125px;
+    background-color: gray;
+}
+
+#placeholder h6 {
+    color: #E5E6EB;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 1em;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    align-items: center;
+    height: 23em;
+}
+
+.info h2 {
+    font-weight: bolder;
     size: 36px;
-    font-weight: extra-bold;
-    color: #1f2937;
+    color: #1F2937;
+    padding-top: 1em;
 }
 
-.quoteBg {
+#infoimgs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5em;
+}
+
+.ii {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+}
+
+.illustration {
+    width: 10em;
+    height: 10em;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.illutext {
+    align-self: center;
+    width: 10em;
+    text-align: center;
+}
+
+#quotePlace {
+    height: 23em;
     background-color: #E5E7EB;
 }
 
-.quoteText {
-    size: 36px;
-    font-weight: lighter;
-    color: #1F2937
+#quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    position: relative;
+    top: 3em;
+    left: 15em;
+    overflow-wrap: break-word;
+    width: 23em;
+}
+
+#quoteAuthor p {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 2em;
+    left: 35em;
+}
+
+#cta {
+    height: 15em;
+}
+
+#callToAction {
+    background-color: #3882F6;
+    width: 75em;
+    height: 7em;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 5em;
+    left: 20em;
+    border-radius: 5px;
+}
+
+#ctaLeft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    padding-left: 7em;
+    padding-top: 1em;
+    color: #F9FAF8;
+}
+
+#ctaLeft h4 {
+    position: relative;
+    bottom: 3em;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+#ctaRight {
+    position: relative;
+    top: 2.5em;
+    left: 25em;
+}
+
+#ctaRight button {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+footer {
+    height: 5em;
+    background-color: #1F2937;
+}
+
+footer div {
+    color: #F9FAF8;
+    position: relative;
+    top: 2em;
+    left: 47em;
 }
